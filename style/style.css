@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial;
+}
+
+h1{
+	padding: 0px;
+	margin: 0px;
+}
+
+.wrapped{
+	width: 700px;
+	margin: 0px auto;
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
+.result_wrapped{
+	float: left;
+}
+
+.result{
+	background-color: #ccc;
+	width: 222px;
+	height: 395px;
+	padding: 10px;
+}
+
+.right{
+	float: right;
+}
+
+.result img{
+	display:none;
+}
+
+#message{
+	color: orange;
+	font-weight: bold;
+}
+
+.clear{
+	clear:both;
+}
